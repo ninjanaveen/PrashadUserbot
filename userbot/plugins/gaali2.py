@@ -1,5 +1,5 @@
 from telethon.tl.types import ChannelParticipantsAdmins
-from userbot.util import admin_cmd
+from userbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="gaali2"))
